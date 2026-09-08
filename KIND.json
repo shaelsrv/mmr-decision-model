@@ -1,0 +1,13 @@
+{
+ "kind": "decision-model",
+ "engine": "https://github.com/shaelsrv/ModelMeetsReality",
+ "engine_commit": "56a33c1",
+ "tier": "proven",
+ "one_line": "derives a person's decision function from their completed choices",
+ "premise_shape": "Given <recurring decision situation>, <actor> chooses <option A> over <option B>. Revealed by: <2+ completed, announced decisions>. Violated by: <a future choice that breaks the ordering>.",
+ "falsifier": "a future choice, in the named situation, that takes the other option",
+ "predict_frame": "Observe ONLY completed, announced decisions -- signed contracts, executed instructions, confirmed changes. Ignore rumour, 'reportedly considering', and statements of intent: the model's whole claim is that actions reveal what statements conceal. For each premise, report whether a decision since the model was written CONFORMS TO or VIOLATES the stated ordering, and say plainly if no qualifying decision has occurred.",
+ "assess_frame": "Did a completed decision in the named situation take the predicted option? A decision that never arose is UNRESOLVABLE, not a miss.",
+ "banned": "Psychology. 'X is loyal / ruthless / insecure' admits no future observation that settles it. Only orderings over choices.",
+ "scope": "Public figures acting in public roles, professional decisions only. Tag --sensitivity contested."
+}
